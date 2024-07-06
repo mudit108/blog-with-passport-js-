@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- style csss -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg space-between bg-transparent fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="assets/img/logo.png" alt="" srcset="">
+            </div>
+            <button class="navbar-toggler bg-dark-subtle" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse P-2" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto nav-tabs  ">
+                    <li class="nav-item"> <a href="" class="nav-link active">HOME</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">MOVIES</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">TV SHOWS</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">BLOG</a></li>
+                    <li class="nav-item"> <a href="" class="nav-link">PAGES</a></li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse p-2 justify-content-end">
+
+                <a href="" class="nav-link"><i class="ri-search-line text-light me-2"></i></a>
+                <a href="" class="nav-link"><i class="ri-notification-line text-light me-2"></i></a>
+                <a href="" class="nav-link"><img src="assets/img/user/download.jpg" alt="" srcset=""
+                        class="rounded-circle"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="carousel slide" data-bs-ride="carousel" id="carousel1">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000000">
+                <div class="main-banner main-banner-1">
+                    <div class="container position-relative h-100 d-flex align-content-center">
+                        <div class="row align-items-center align-content-center ">
+                            <div class="col-7 z-1">
+                                <div class="main-banner-inner h-100 pt-3 z-1">
+                                    <h1 class="display-1 fw-bolder title-bg">PIRATES OF SEA</h1>
+                                    <div class="main-banner-part-1 d-flex flex-wrap mt-2">
+                                        <div class="ratings d-flex justify-content-end me-4 align-items-center">
+                                            <ul class="list-inline d-flex text-danger me-2 mb-0">
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-half-fill"></i></li>
+                                            </ul>
+                                            <span class="text-light">4.7(ibdb)</span>
+                                        </div>
+                                        <div class="nc-17 d-flex justify-content-center">
+                                            <span class="badge bg-secondary">NC-17</span>
+                                            <span class="ms-3 text-light fw-bolder">1hrs : 45mins</span>
+                                        </div>
+                                        <p class="text-light mt-3 fs-5 p-1 ps-0">
+
+                                            Piracy is an act of robbery or criminal violence by ship or boat-borne
+                                            attackers upon another ship or a coastal area, typically with the goal of
+                                            stealing cargo and other valuable items or properties.
+
+                                        </p>
+                                        <div class="trending-list fs-6 w-100">
+                                            <div class="inside-trnding-list mb-2">
+                                                <span class="text-danger">Starring:</span>
+                                                <span class="text-secondary">Karen Gilchrist,Karen Gilchrist</span>
+                                            </div>
+                                            <div class="inside-trnding-list mb-2">
+                                                <span class="text-danger">Genres:</span>
+                                                <span class="text-secondary">Action</span>
+                                            </div>
+                                            <div class="inside-trnding-list mb-2">
+                                                <span class="text-danger">Tag:</span>
+                                                <span class="text-secondary">Action,Adventure,Horror</span>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="btn play-now-btn bg-danger fw-bolder align-content-center d-flex mt-4">
+                                            <i class="ri-play-fill me-2"></i>
+                                            PLAY NOW
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5  z-1 d-flex align-items-center display-5 p-2 watch-trailer">
+                                <button class="btn" data-bs-toggle="modal" data-bs-target="#form1">
+                                    
+                                    <svg id="play" viewBox="0 0 163 163" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"="0px">
+
+                                    <g fill="none">
+                                        <g transform="translate(2.000000, 2.000000)" stroke-width="4">
+                                            <path
+                                                d="M10,80 C10,118.107648 40.8923523,149 79,149 L79,149 C117.107648,149 148,118.107648 148,80 C148,41.8923523 117.107648,11 79,11"
+                                                id="lineOne" stroke="#fff"></path>
+                                            <path
+                                                d="M105.9,74.4158594 L67.2,44.2158594 C63.5,41.3158594 58,43.9158594 58,48.7158594 L58,109.015859 C58,113.715859 63.4,116.415859 67.2,113.515859 L105.9,83.3158594 C108.8,81.1158594 108.8,76.6158594 105.9,74.4158594 L105.9,74.4158594 Z"
+                                                id="triangle" stroke="#FFF"></path>
+                                            <path
+                                                d="M159,79.5 C159,35.5933624 123.406638,0 79.5,0 C35.5933624,0 0,35.5933624 0,79.5 C0,123.406638 35.5933624,159 79.5,159 L79.5,159"
+                                                id="lineTwo" stroke="#FFFFFF"></path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            
+                        </button>
+                                </span>
+                                <span class=" text-light">WATCH TRAILER</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <div class="main-banner main-banner-2">
+                    <div class="container position-relative h-100 d-flex align-content-center">
+                        <div class="row align-items-center align-content-center ">
+                            <div class="col-7 z-1">
+                                <div class="main-banner-inner h-100 pt-3 z-1">
+                                    <h1 class="display-1 fw-bolder title-bg">SAND DUST</h1>
+                                    <div class="main-banner-part-1 d-flex flex-wrap mt-2">
+                                        <div class="ratings d-flex justify-content-end me-4 align-items-center">
+                                            <ul class="list-inline d-flex text-danger me-2 mb-0">
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-half-fill"></i></li>
+                                            </ul>
+                                            <span class="text-light">3.4(ibdb)</span>
+                                        </div>
+                                        <div class="nc-17 d-flex justify-content-center">
+                                            <span class="badge bg-secondary">16+</span>
+                                            <span class="ms-3 text-light fw-bolder">45mins</span>
+                                        </div>
+                                        <p class="text-light mt-3 fs-5 p-1 ps-0">
+
+                                            Sand and dust storms (SDS), also known as sirocco, haboob, yellow dust,
+                                            white storms, and the harmattan, are a natural phenomenon linked with land
+                                            and water management and climate change.
+
+                                        </p>
+                                        <div class="trending-list fs-6 w-100">
+                                            <div class="inside-trnding-list mb-2">
+                                                <span class="text-danger">Starring:</span>
+                                                <span class="text-secondary">Karen Gilchrist,Karen Gilchrist</span>
+                                            </div>
+                                            <div class="inside-trnding-list mb-2">
+                                                <span class="text-danger">Genres:</span>
+                                                <span class="text-secondary">Action</span>
+                                            </div>
+                                            <div class="inside-trnding-list mb-2">
+                                                <span class="text-danger">Tag:</span>
+                                                <span class="text-secondary">Action,Adventure,Horror</span>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="btn play-now-btn bg-danger fw-bolder align-content-center d-flex mt-4">
+                                            <i class="ri-play-fill me-2"></i>
+                                            PLAY NOW
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5  z-1 d-flex align-items-center display-5 p-2 watch-trailer">
+                                <span class="me-3"><svg id="play" viewBox="0 0 163 163" version="1.1"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        x="0px"="0px">
+
+                                        <g fill="none">
+                                            <g transform="translate(2.000000, 2.000000)" stroke-width="4">
+                                                <path
+                                                    d="M10,80 C10,118.107648 40.8923523,149 79,149 L79,149 C117.107648,149 148,118.107648 148,80 C148,41.8923523 117.107648,11 79,11"
+                                                    id="lineOne" stroke="#fff"></path>
+                                                <path
+                                                    d="M105.9,74.4158594 L67.2,44.2158594 C63.5,41.3158594 58,43.9158594 58,48.7158594 L58,109.015859 C58,113.715859 63.4,116.415859 67.2,113.515859 L105.9,83.3158594 C108.8,81.1158594 108.8,76.6158594 105.9,74.4158594 L105.9,74.4158594 Z"
+                                                    id="triangle" stroke="#FFF"></path>
+                                                <path
+                                                    d="M159,79.5 C159,35.5933624 123.406638,0 79.5,0 C35.5933624,0 0,35.5933624 0,79.5 C0,123.406638 35.5933624,159 79.5,159 L79.5,159"
+                                                    id="lineTwo" stroke="#FFFFFF"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class=" text-light">WATCH TRAILER</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <div class="main-banner main-banner-3">
+                    <div class="container position-relative h-100 d-flex align-content-center">
+                        <div class="row align-items-center align-content-center ">
+                            <div class="col-7 z-1">
+                                <div class="main-banner-inner h-100 pt-3  z-1">
+                                    <h1 class="display-1 fw-bolder title-bg">PIRATES OF SEA</h1>
+                                    <div class="main-banner-part-1 d-flex flex-wrap mt-2">
+                                        <div class="ratings d-flex justify-content-end me-4 align-items-center">
+                                            <ul class="list-inline d-flex text-danger me-2 mb-0">
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-fill"></i></li>
+                                                <li><i class="ri-star-half-fill"></i></li>
+                                            </ul>
+                                            <span class="text-light">4.7(ibdb)</span>
+                                        </div>
+                                        <div class="nc-17 d-flex justify-content-center">
+                                            <span class="badge bg-secondary">NC-17</span>
+                                            <span class="ms-3 text-light fw-bolder">1hrs : 45mins</span>
+                                        </div>
+                                        <p class="text-light mt-3 fs-5 p-1 ps-0">
+
+                                            Piracy is an act of robbery or criminal violence by ship or boat-borne
+                                            attackers upon another ship or a coastal area, typically with the goal of
+                                            stealing cargo and other valuable items or properties.
+
+                                        </p>
+                                        <div class="trending-list fs-6 w-100">
+                                            <div class="inside-trnding-list mb-2">
+                                                <span class="text-danger">Starring:</span>
+                                                <span class="text-secondary">Karen Gilchrist,Karen Gilchrist</span>
+                                            </div>
+                                            <div class="inside-trnding-list mb-2">
+                                                <span class="text-danger">Genres:</span>
+                                                <span class="text-secondary">Action</span>
+                                            </div>
+                                            <div class="inside-trnding-list mb-2">
+                                                <span class="text-danger">Tag:</span>
+                                                <span class="text-secondary">Action,Adventure,Horror</span>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="btn play-now-btn bg-danger fw-bolder align-content-center d-flex mt-4">
+                                            <i class="ri-play-fill me-2"></i>
+                                            PAY NOW
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-5  z-1 d-flex align-items-center display-5 p-2 watch-trailer">
+                                <button class="btn" data-bs-toggle="modal" data-bs-target="#form1">
+                                    
+                                            <svg id="play" viewBox="0 0 163 163" version="1.1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"="0px">
+
+                                            <g fill="none">
+                                                <g transform="translate(2.000000, 2.000000)" stroke-width="4">
+                                                    <path
+                                                        d="M10,80 C10,118.107648 40.8923523,149 79,149 L79,149 C117.107648,149 148,118.107648 148,80 C148,41.8923523 117.107648,11 79,11"
+                                                        id="lineOne" stroke="#fff"></path>
+                                                    <path
+                                                        d="M105.9,74.4158594 L67.2,44.2158594 C63.5,41.3158594 58,43.9158594 58,48.7158594 L58,109.015859 C58,113.715859 63.4,116.415859 67.2,113.515859 L105.9,83.3158594 C108.8,81.1158594 108.8,76.6158594 105.9,74.4158594 L105.9,74.4158594 Z"
+                                                        id="triangle" stroke="#FFF"></path>
+                                                    <path
+                                                        d="M159,79.5 C159,35.5933624 123.406638,0 79.5,0 C35.5933624,0 0,35.5933624 0,79.5 C0,123.406638 35.5933624,159 79.5,159 L79.5,159"
+                                                        id="lineTwo" stroke="#FFFFFF"></path>
+                                                        dete hai,yeah sub k baad iinsan mai itna kuch seekh jata hai na.. tu bhi yeah sub se bhaut kuch sikkhi ho gi.. aur jo sikhi na vo dhyan rakhna aage.!! waise kise ko mere jitna attach mt hone deta waise toh mere jitna toh koi shyad hi ho, but fir bhi kise ko attach mt hone dena q ki last mai vo toh seriously le ga but tu toh ladki hai tu toh usko last mai chod ke bina kuch boole soche samjhe nikal le gi aur fir vo bichara kaisa ho jaye ga yeah mujhse baheter aur kon samajh sakta hai.. 
+                                                        chalo dhyan rakhna 
+                                                        jay shree krishna 
+                                                        radhe radhe 
+                                                        jay shree ram :)
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    
+                                </button>
+                                <span class=" text-light">WATCH TRAILER</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev ms-0" type="button" data-bs-target="#carousel1" data-bs-slide="prev"
+            style="width: 7%;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next ms-0" type="button" data-bs-target="#carousel1" data-bs-slide="next"
+            style="width: 7%;">
+            <span class="carousel-control-next-icon "></span>
+            <span class="visually-hidden ">Next</span>
+        </button>
+
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade modal-lg  " id="form1">
+        <div class="modal-dialog modal-dialog-centered bg-transparent">
+            <div class="modal-content bg-transparent">
+                <div class="modal-header bg-transparent text-light">
+                    <button class="btn-close bg-light" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <video src="assets/videos/30 Minutes or Less 20 Second Trailer.mp4" style="width: 100%; height: 100%;" autoplay loop muted></video>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div class="card text-bg-dark">
+        <img src="assets/img/slider/slider1.jpg" alt="" srcset="" style="object-fit: contain; width: 100%; ">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        </div>
+      </div> -->
+
+    <!-- jq -->
+    <script src="assets/css/bootstrap.bundle.js"></script>
+</body>
+
+</html>
