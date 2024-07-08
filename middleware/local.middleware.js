@@ -13,7 +13,6 @@ const localAuth = (passport) => {
             if (User.password != password) {
                 return done(null, false);
             }
-
             return done(null, User)
 
         } catch (error) {
@@ -36,8 +35,9 @@ const userAuth = (req, res, next) => {
     // let { user } = req.cookies;
 
     let  user  = req.user;
+    console.log(user);
     if (user) {
-        res.redirect('/');
+        next()
     } else {
         return res.redirect('/login');
     }

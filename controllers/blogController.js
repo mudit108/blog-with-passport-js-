@@ -4,7 +4,7 @@ const User = require('../models/User');
 exports.getblogs = async (req, res) => {
     try {
         const blogs = await blog.find({});
-        res.render('index', { blogs });
+        return res.render('index', { blogs });
     } catch (err) {
         console.error(err);
         res.send('Server Error');
@@ -112,7 +112,7 @@ exports.signup =  async (req, res) => {
             password,
             phoneNumber
         });
-        await user.save();
+        // await user.save();
         
         res.redirect('login');
     } catch (err) {
@@ -142,8 +142,8 @@ exports.login = async (req, res) => {
             return false;
         }
 
-        req.session.user = user.id;
-        res.redirect('/');
+        // req.session.user = user.id;
+        return res.redirect('/');
         
     } catch (err) {
         console.error(err.message);

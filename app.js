@@ -5,9 +5,9 @@ const connectDB = require('./config/db');
 const app = express();
 const passport = require('passport');
 const session = require('express-session');
-const localAuth = require('./middleware/local.middleware');
+const {localAuth} = require('./middleware/local.middleware');
 
-// localAuth(passport.Passport);
+localAuth(passport);
 connectDB();
 
 app.set('view engine', 'ejs');

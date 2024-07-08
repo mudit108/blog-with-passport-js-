@@ -11,12 +11,12 @@ router.post('/add-blog', createblog);
 router.get('/edit-blog/:id', editblog);
 router.post('/edit-blog/:id', updateblog);
 router.post('/delete-blog/:id', deleteblog);
-router.post('/local', passport.authenticate('local', {
+router.post('/login', passport.authenticate('local', {
     successRedirect: '/',
     failureRedirect: '/login'
 }))
 
-router.post('/login', login);
+// router.post('/login', login);
 router.get('/login', loginPage);
 router.post('/signup', signup);
 router.get('/signup', signupPage);
